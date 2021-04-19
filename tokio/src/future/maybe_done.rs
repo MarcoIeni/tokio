@@ -12,7 +12,7 @@ pub enum MaybeDone<Fut: Future> {
     Future(Fut),
     /// The output of the completed future
     Done(Fut::Output),
-    /// The empty variant after the result of a [`MaybeDone`] has been
+    /// The empty variant after the result of a [`MaybeNotExisting`] has been
     /// taken using the [`take_output`](MaybeDone::take_output) method.
     Gone,
 }
