@@ -1,3 +1,26 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+## [0.1.9] - 2022-04-11
+
+### Other
+- add lifetime parameter to ReusableBoxFuture (#3762)
+- increase MSRV to 1.49. (#4457)
+- fix disabled tests (#4441)
+- update year in LICENSE files (#4429)
+- add `StreamExt::map_while` (#4351)
+- add `StreamExt::then` (#4355)
+- *(util)* start v0.7 release cycle (#4313) ([#4313](https://github.com/4313) [#4313](https://github.com/4313) )
+- impl Extend for StreamMap (#4272)
+- remove doc URL from Cargo.toml (#4251)
+- upgrade to new nightly (#4268)
+- bump MSRV to 1.46 (#4254)
+- fix newly added warnings (#4253)
 # 0.1.8 (October 29, 2021)
 
 - stream: add `From<Receiver<T>>` impl for receiver streams ([#4080])
